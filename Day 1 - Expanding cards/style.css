@@ -2,4 +2,56 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  z-index: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  height: 600px;
+  display: flex;
+}
+
+.card {
+  height: 100%;
+  width: 25%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card__shadow {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent, #000);
+  z-index: 1;
+}
+
+.cod {
+  background-image: url(./assets/cod.jpg);
+  width: 75%;
+}
+.evil-within {
+  background-image: url(./assets/tew.jpg);
+  width: 5%;
+}
+
+.warzone {
+  background-image: url(./assets/wz.jpg);
+  width: 5%;
+}
+
+.portal {
+  background-image: url(./assets/p2.jpg);
+  width: 5%;
 }

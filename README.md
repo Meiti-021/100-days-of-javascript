@@ -4,7 +4,7 @@ A collection of my JavaScript mini practice projects. Pure vanilla, No frame wor
 
 ## Projects
 
-- [Blog Project](https://github.com/afozbek/React-Demo-Projects/tree/master/Blog)
+- [Expanding Cards](https://github.com/Meiti-021/javascript-demo-projects/tree/main/Day%201%20-%20Expanding%20cards)
 
 ### Prerequisites
 

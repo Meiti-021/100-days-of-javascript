@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #000;
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
 
 .card {
   height: 100%;
-  width: 10%;
+  width: 5%;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -62,7 +63,7 @@ body {
 }
 
 .active {
-  width: 70%;
+  width: 85%;
 }
 
 .active .card__shadow {
